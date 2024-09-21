@@ -1,0 +1,178 @@
+{
+  "main": {
+    "id": "655c743dc4528f86",
+    "type": "split",
+    "children": [
+      {
+        "id": "64db98d1535f514f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fdd2eb747c805a6f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "interface Web (CSS).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b00147d5edabd0fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths discrètes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "028537c53cd30f4a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0fe7b3d075837cec",
+    "type": "split",
+    "children": [
+      {
+        "id": "d3b379ba9fb39b50",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8b9a13a9a9bb306",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "62eb3fef9243603c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1c77a79e30a9d1be",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "350807537707e8fa",
+    "type": "split",
+    "children": [
+      {
+        "id": "2fc2e1606c8b9281",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b00ec0ed1b9ad127",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "interface Web (CSS).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8cc74635794ece12",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "interface Web (CSS).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f36ee9d6870c5b11",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e8c2cb84c531bed9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "interface Web (CSS).md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "028537c53cd30f4a",
+  "lastOpenFiles": [
+    "maths discrètes.md",
+    "interface Web (CSS).md",
+    "Welcome.md",
+    "interface web (intro).md",
+    "create a link.md"
+  ]
+}
