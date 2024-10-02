@@ -50,7 +50,6 @@
    	- $nb_div = (aplha_1 + 1)(aplha_2 + 1)$...$(aplha_3 + 1)$
    	- --------------------------
    	- en gros tu décompose ton nombre a en produit de facteur premier, et tu multiplie chaque exposant (alpha) +1, entre eux.
-	- --------------------------
 	- puis après tu fait l'arbre des possibilitées (c long en crabe)
  
 6. calcul du PGCD/PPCM par  décomposition
