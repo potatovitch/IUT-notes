@@ -58,9 +58,19 @@
    	- a^b c'est le produit des facteur de a ou de b les plus petit (si t'a pas compris regarde la partie guidée)
      
 5. **calcule du PGCD/PPCM par l'algorithme d'Euclide**
-   	- perso je trouve que ça pue la merde comme méthode, et que c'est long pour rien
-   	- ----------------
-   	- flm de la mettre donc niquez vous
+
+	|NB_lignes|Dividende (a)|Diviseur (b)|Reste (r)|
+	|---------|-------------|------------|---------|
+	|1        |R1: a        |R2: b       |R3: a/b  |
+	|2        |R2           |R3          |R4: R2/R3|
+	|3        |R3           |R4          |R5: R3/R4|
+	|4        |R4           |R5          |R6: R4/R5|
+	|5        |R5           |R6          |R7: ...  |
+	|N        |RN           |RN+1        |**RN+2: 0**|
+
+	- tu suis le tableau, puis dès que le reste fait 0, tu prend le reste d'avant
+ 	- -------------------------- 
+	- en gros, si tout en bas à droite, RN+2 = 0, tu prend le reste de la ligne du dessus 
 
 10. **info en plus je savais pas où la mettre tu m'excusera on est pas à ça près, plutôt même à ça loin, mais bon c'est pas non plus un concours de bite à savoir qui à la plus grosse, parce qu'on sait tous que c'est moi qui l'ai... voila voila...** 
 > (a^b)(a_b) = a*b &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a_b : PPCM mais y a pas le circonflex inversé
@@ -79,18 +89,6 @@
 	- $132$ PPCM $108 = 2^2 * 3^3 * 11 = 1188$
 4. **calcul du PGCD et du PPCM par l'algorithme d'Euclide**
 
-	|NB_lignes|Dividende (a)|Diviseur (b)|Reste (r)|
-	|---------|-------------|------------|---------|
-	|1        |R1: a        |R2: b       |R3: a/b  |
-	|2        |R2           |R3          |R4: R2/R3|
-	|3        |R3           |R4          |R5: R3/R4|
-	|4        |R4           |R5          |R6: R4/R5|
-	|5        |R5           |R6          |R7: ...  |
-	|N        |RN           |RN+1        |**RN+2: 0**|
-
-	- tu suis le tableau, puis dès que le reste fait 0, tu prend le reste d'avant
- 	- -------------------------- 
-	- en gros, si tout en bas à droite, RN+2 = 0, tu prend le reste de la ligne du dessus 
 	
 ## Calcul Modulaire
 1. **BlipBloup**
