@@ -72,12 +72,12 @@
 	- $132 = 2^2*3+11$
 	- $108 = 2^2*3^3$
 1. liste des diviseurs d'un entier
-	- $132 = 2^2*3+11$
+	- $132 = 2^2 * 3 + 11$
 	- $nbdiv = (2+1)(1+1)(1+1)=12$
 	> faire le tree (peut pas sur obsidian)
 1. calcul du PGCD et du PPCM par décomposition
-	- $132$ PGCD $108 = 2^2*3^1 =12$
-	- $132$ PPCM $108 = 2^2*3^3*11 = 1188$
+	- $132$ PGCD $108 = 2^2 * 3^1 =12$
+	- $132$ PPCM $108 = 2^2 * 3^3 * 11 = 1188$
 1. calcul du PGCD et du PPCM par l'algorithme d'Euclide
 	- ... womp womp flm ferai plus tard mgl
 
