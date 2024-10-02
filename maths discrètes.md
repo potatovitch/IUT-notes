@@ -71,14 +71,16 @@
 
 	- tu suis le tableau, puis dès que le reste fait 0, tu prend le reste d'avant
  	- -------------------------- 
-	- en gros, si tout en bas à droite, RN+2 = 0, tu prend le reste de la ligne du dessus  
+	- en gros, si tout en bas à droite, RN+2 = 0, tu prend le reste de la ligne du dessus et t'as le PGCD 
 &nbsp;
  	> PPCM
   
-  	- (a^b)(a_b) = a*b **donc** (a^b)a*b = (a_b)
+  	- (a^b)(a_b) = a*b **donc** (a^b)/(ab) = (a_b)
+   	- --------------------------
+   	- en gros, tu prend le PGCD que tu viens de calculer, et tu le divise par ab et t'as le PPCM
 	
 10. **info en plus je savais pas où la mettre tu m'excusera on est pas à ça près, plutôt même à ça loin, mais bon c'est pas non plus un concours de bite à savoir qui à la plus grosse, parce qu'on sait tous que c'est moi qui l'ai... voila voila...** 
-> (a^b)(a_b) = a*b &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a_b : PPCM mais y a pas le circonflex inversé
+> (a^b)(a_b) = ab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a_b : PPCM mais y a pas le circonflex inversé
 
 ### Pratique guidée
 > $a=132$ et $b=108$
