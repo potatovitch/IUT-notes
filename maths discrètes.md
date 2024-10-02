@@ -34,12 +34,12 @@
 		- $x2= (-26+784^{1/2})/-2 = -1$
 		- S{-1;17} or la base -1 n'est pas possible du coup b=27
 
->  $(1789)_8$  n'est pas possible parce qu'il contient des nombres > à sa base (8 et 9) 
+>  $(1789)_8$  n'est pas possible parce qu'il contient des nombres >= à sa base (8 et 9) 
 
 ### Arithmétique
 1. deux nombres premier entre eux
 	> On dit que deux entiers a et b sont premier entre eux si :
-	> ils n'ont en PGCD **que** 1 (a^b = 1)
+	> ils n'ont en PGCD **que 1**. (a^b = 1)
 1. Théorème de Bézout (id de Bézout)
 	- 
 2. liste des diviseurs d'un entier
