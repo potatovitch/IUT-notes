@@ -82,9 +82,9 @@
 &nbsp;  
  	> PPCM  
   
-  	- (a^b)(a_b) = a*b **donc** (a^b)/(ab) = (a_b)  
+  	- (a^b)(a_b) = a*b **donc** (ab)/(a^b) = (a_b)  
    	- --------------------------  
-   	- en gros, tu prend le PGCD que tu viens de calculer, et tu le divise par ab et t'as le PPCM  
+   	- en gros, tu prend ab, et tu le divise par le PGCD que tu viens de calculer et t'as le PPCM  
 	
 10. **info en plus je savais pas où la mettre tu m'excusera on est pas à ça près, plutôt même à ça loin, mais bon c'est pas non plus un concours de bite à savoir qui à la plus grosse, parce qu'on sait tous que c'est moi qui l'ai... voila voila...**   
 > (a^b)(a_b) = ab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a_b : PPCM mais y a pas le circonflex inversé  
@@ -104,8 +104,22 @@
 	- $132$ PGCD $108 = 2^2 * 3^1 =12$  
 	- $132$ PPCM $108 = 2^2 * 3^3 * 11 = 1188$  
 
-4. **calcul du PGCD et du PPCM par l'algorithme d'Euclide**  
+4. **calcul du PGCD et du PPCM par l'algorithme d'Euclide**
+   	> PGCD  
+  
+	|NB_lignes|Dividende (a)|Diviseur (b)|Reste (r)|  
+	|---------|-------------|------------|---------|  
+	|1        |R1: 132      |R2: 108     |R3: 24   |  
+	|2        |R2: 108      |R3: 24      |R4: 12   |  
+	|3        |R3: 24       |R4: 12      |**R5: 0**|
 
+ 	- **PGCD = 12**
+	- --------------------
+
+	> PPCM
+ 	- 12(a_b) = 132*108
+  	- (132*108)/12 = (a_b)
+   	- **(a_b) = 1188**
 	
 ## Calcul Modulaire
 1. **BlipBloup**  
