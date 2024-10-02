@@ -64,7 +64,7 @@
    	- flm de la mettre donc niquez vous
 
 10. info en plus je savais pas où la mettre tu m'excusera on est pas à ça près, plutôt même à ça loin, mais bon c'est pas non plus un concours de bite à savoir qui à la plus grosse, parce qu'on sait tous que c'est moi qui l'ai... voila voila... 
-> (a^b)(a_b) = a*b			a_b : PPCM mais y a pas le circonflex inversé
+> (a^b)(a_b) = a*b nbsp& nbsp& nbsp& nbsp& a_b : PPCM mais y a pas le circonflex inversé
 
 ### Pratique guidée
 > $a=132$ et $b=108$
