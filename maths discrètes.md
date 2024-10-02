@@ -7,7 +7,7 @@
 	- $A = (a_n + a_{n-1} + ... + a_1 + a_0)_b$
 	- $A = a_0 * b^0 +  a_0 *b^1 +  ... + a_0 *b^n$  
 2. conversion en base 10
-	- $(1789)_{16} = 9*16^0 + 8*16^1 + 7*16^2 + 1*16^3$
+	- $1789_{16} = 9*16^0 + 8*16^1 + 7*16^2 + 1*16^3$
 	- $1789_{16} = 6025_{10}$
 3. conversion en base b
 	-  succession de div euclidiennes
