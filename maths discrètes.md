@@ -86,7 +86,7 @@
 	|3        |R3           |R4          |R5: R3/R4|
 	|4        |R4           |R5          |R6: R4/R5|
 	|5        |R5           |R6          |R7: ...  |
-	|N        |RN           |RN+1        |RN+2: **0**|
+	|N        |RN           |RN+1        |**RN+2: 0**|
 
 	- tu suis le tableau, puis dès que le reste fait 0, tu prend le reste d'avant
  	- -------------------------- 
