@@ -40,11 +40,10 @@
 1. deux nombres premier entre eux
 	> On dit que deux entiers a et b sont premier entre eux si :
 	> ils n'ont en PGCD **que 1**. (a^b = 1)
-1. Théorème de Bézout (id de Bézout)
-	- 
-2. liste des diviseurs d'un entier
-3. calcul du PGCD/PPCM par  décomposition
-4. calcule du PGCD/PPCM par l'algorithme d'Euclide
+2. Théorème de Bézout (id de Bézout)
+3. liste des diviseurs d'un entier
+4. calcul du PGCD/PPCM par  décomposition
+5. calcule du PGCD/PPCM par l'algorithme d'Euclide
 
 > (a^b)(a_b) = a*b
 #### Pratique guidée
