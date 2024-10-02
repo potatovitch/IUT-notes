@@ -72,7 +72,7 @@
 	- tu suis le tableau, puis dès que le reste fait 0, tu prend le reste d'avant
  	- -------------------------- 
 	- en gros, si tout en bas à droite, RN+2 = 0, tu prend le reste de la ligne du dessus 
-
+&nbsp;
  	> PPCM
   
   	- (a^b)(a_b) = a*b **donc** (a^b)a*b = (a_b)
