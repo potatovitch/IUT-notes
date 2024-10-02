@@ -74,12 +74,17 @@
 1. liste des diviseurs d'un entier
 	- $132 = 2^2 * 3 + 11$
 	- $nbdiv = (2+1)(1+1)(1+1)=12$
-	> faire le tree (peut pas sur obsidian)
+	> faire l'arbre des possibilitées (c long en crabe)
 1. calcul du PGCD et du PPCM par décomposition
 	- $132$ PGCD $108 = 2^2 * 3^1 =12$
 	- $132$ PPCM $108 = 2^2 * 3^3 * 11 = 1188$
 1. calcul du PGCD et du PPCM par l'algorithme d'Euclide
-	- ... womp womp flm ferai plus tard mgl
 
+	|NB_lignes|Dividende (a)|Diviseur (b)|Reste (r)|
+	|---------|-------------|------------|---------|
+	|1        |R1: a        |R2: b       |R3: a/b  |
+	|2        |R2           |R3          |R4: R2/R3|
+	|3        |R3           |R4          |R5: ...  |
+	
 ## Calcul Modulaire
 1. BlipBloup
