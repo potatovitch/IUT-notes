@@ -39,15 +39,15 @@
 ## Arithmétique
 1. deux nombres premier entre eux
 	> On dit que deux entiers a et b sont premier entre eux si :
-	> ils n'ont en PGCD **que 1**. (a^b = 1)
+	> ils n'ont en PGCD **que 1**. ($a\^b = 1$)
 2. Théorème de Bézout (id de Bézout)
-   	- d=a\^b ssi il existe u,v deux nombres entiers (dans l'ensemble Z) tel que :
+   	- $d=a\^b$ ssi il existe u,v deux nombres entiers (dans l'ensemble Z) tel que :
    	- **$d = au+bv$**
    	- --------------------------
    	- en gros, si tu trouve u et v, $d = a\^b$
    
 4. liste des diviseurs d'un entier
-   	- $nb_div = (aplha_1 + 1)(aplha_2 + 1)...(aplha_3 + 1)
+   	- $nb_div = (aplha_1 + 1)(aplha_2 + 1)$...$(aplha_3 + 1)$
    	- --------------------------
    	- en gros tu décompose ton nombre a en produit de facteur premier, et tu multiplie chaque exposant (alpha) +1, entre eux.
 	- --------------------------
@@ -64,10 +64,10 @@
    	- flm de la mettre donc niquez vous
 
 10. info en plus je savais pas où la mettre tu m'excusera on est pas à ça près, plutôt même à ça loin, mais bon c'est pas non plus un concours de bite à savoir qui à la plus grosse, parce qu'on sait tous que c'est moi qui l'ai... voila voila... 
-> (a^b)(a_b) = a*b
+> $(a\^b)(a_b) = a*b$			a_b : PPCM mais y a pas le circonflex inversé
 
 ### Pratique guidée
-> a=132 et b=108
+> $a=132$ et $b=108$
 1. décomposition en produits de facteurs premiers
 	- $132 = 2^2*3+11$
 	- $108 = 2^2*3^3$
