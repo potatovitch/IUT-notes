@@ -39,7 +39,7 @@
 ## Arithmétique
 1. **deux nombres premier entre eux**
 	> On dit que deux entiers a et b sont premier entre eux si :
-	> ils n'ont en PGCD **que 1**. ($a$^$b = 1$)
+	> ils n'ont en PGCD **que 1**. (a^b = 1)
 2. **Théorème de Bézout (id de Bézout)**
    	- $d=a$^$b$ ssi il existe u,v deux nombres entiers (dans l'ensemble Z) tel que :
    	- **$d = au+bv$**
