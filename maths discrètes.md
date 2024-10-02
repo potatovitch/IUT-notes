@@ -1,8 +1,8 @@
-## PART 1 : Arithmétique :
+# PART 1 : Arithmétique :
 
-### Div Euclidienne
+## Div Euclidienne
 
-### Bases
+## Bases
 1. définition d'une base
 	- $A = (a_n + a_{n-1} + ... + a_1 + a_0)_b$
 	- $A = a_0 * b^0 +  a_0 *b^1 +  ... + a_0 *b^n$  
@@ -36,17 +36,37 @@
 
 >  $(1789)_8$  n'est pas possible parce qu'il contient des nombres >= à sa base (8 et 9) 
 
-### Arithmétique
+## Arithmétique
 1. deux nombres premier entre eux
 	> On dit que deux entiers a et b sont premier entre eux si :
 	> ils n'ont en PGCD **que 1**. (a^b = 1)
 2. Théorème de Bézout (id de Bézout)
-3. liste des diviseurs d'un entier
-4. calcul du PGCD/PPCM par  décomposition
-5. calcule du PGCD/PPCM par l'algorithme d'Euclide
+   	- d=a\^b ssi il existe u,v deux nombres entiers (dans l'ensemble Z) tel que :
+   	- **$d = au+bv$**
+   	- --------------------------
+   	- en gros, si tu trouve u et v, $d = a\^b$
+   
+4. liste des diviseurs d'un entier
+   	- $nb_div = (aplha_1 + 1)(aplha_2 + 1)...(aplha_3 + 1)
+   	- --------------------------
+   	- en gros tu décompose ton nombre a en produit de facteur premier, et tu multiplie chaque exposant (alpha) +1, entre eux.
+	- --------------------------
+	- puis après tu fait l'arbre des possibilitées (c long en crabe)
+ 
+6. calcul du PGCD/PPCM par  décomposition
+   	- tu décompose a et b en produit de facteur premier
+   	- tu check le plus petit exposant de chaque facteur premier
+   	- a^b c'est le produit des facteur de a ou de b les plus petit (si t'a pas compris regarde la partie guidée)
+     
+8. calcule du PGCD/PPCM par l'algorithme d'Euclide
+   	- perso je trouve que ça pue la merde comme méthode, et que c'est long pour rien
+   	- ----------------
+   	- flm de la mettre donc niquez vous
 
+10. info en plus je savais pas où la mettre tu m'excusera on est pas à ça près, plutôt même à ça loin, mais bon c'est pas non plus un concours de bite à savoir qui à la plus grosse, parce qu'on sait tous que c'est moi qui l'ai... voila voila... 
 > (a^b)(a_b) = a*b
-#### Pratique guidée
+
+### Pratique guidée
 > a=132 et b=108
 1. décomposition en produits de facteurs premiers
 	- $132 = 2^2*3+11$
@@ -61,6 +81,5 @@
 1. calcul du PGCD et du PPCM par l'algorithme d'Euclide
 	- ... womp womp flm ferai plus tard mgl
 
-### Calcul Modulaire
-1. 
-
+## Calcul Modulaire
+1. BlipBloup
